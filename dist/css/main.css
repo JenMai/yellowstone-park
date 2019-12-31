@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  text-decoration: none;
+  line-height: 1.5; }
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold; }
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 7rem; }
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
+    font-size: 4rem; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+a:hover,
+a:focus {
+  color: #748e54;
+  transition: all 0.3s ease-out; }
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; }
+
+main {
+  padding: 4rem; }
+  main#home {
+    overflow: hidden; }
