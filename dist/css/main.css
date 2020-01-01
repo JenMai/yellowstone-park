@@ -3,7 +3,7 @@
   position: absolute;
   left: 10px;
   top: 10px;
-  padding-left: 4rem; }
+  padding-left: 3rem; }
 
 .menu-btn {
   position: absolute;
@@ -96,6 +96,6 @@ header {
   height: 80px; }
 
 main {
-  padding: 4rem; }
+  padding: 3rem; }
   main#home {
     overflow: hidden; }
