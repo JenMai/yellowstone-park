@@ -92,6 +92,7 @@ a:focus {
   transition: all 0.5s ease-out; }
 
 header {
+  background-color: #fff;
   position: fixed;
   z-index: 2;
   width: 100%;
