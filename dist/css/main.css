@@ -104,6 +104,8 @@ main {
   flex: 1; }
   main#home {
     overflow: hidden; }
+  main .spacer {
+    height: 15vh; }
   main .hero-container {
     display: flex;
     height: 75vh; }
