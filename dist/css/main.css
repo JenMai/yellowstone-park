@@ -56,6 +56,53 @@
   font-size: 2rem;
   margin-bottom: 10px; }
 
+.hero-container {
+  display: flex;
+  height: 75vh; }
+  .hero-container .hero-title {
+    flex: 2;
+    background-image: url("../img/corey-tran-Bp1Vf2lbHdM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .hero-container .hero-title h1 {
+      top: 15vh; }
+  .hero-container .hero-text {
+    flex: 1;
+    margin-top: auto;
+    margin: auto 0 10vh 10vh; }
+    .hero-container .hero-text p {
+      width: 170px;
+      height: 100px; }
+  .hero-container h1 {
+    position: relative;
+    left: 60vh; }
+
+.description-container {
+  display: flex;
+  margin-bottom: 2rem; }
+  .description-container .description-text {
+    flex: 4; }
+  .description-container .description-stat {
+    flex: 1;
+    border: 2px solid #333;
+    width: 10px;
+    height: 300px;
+    padding: 35px 35px 200px 35px; }
+    .description-container .description-stat .number {
+      font-family: "Roboto Slab", serif;
+      font-size: 2rem;
+      margin-bottom: 15px; }
+
+.description-images {
+  display: flex wrap;
+  position: relative;
+  bottom: 175px;
+  margin-bottom: -175px; }
+  .description-images img {
+    margin-right: 1rem;
+    max-width: 230px;
+    max-height: auto; }
+
 * {
   box-sizing: border-box; }
 
@@ -101,31 +148,12 @@ header {
 main {
   margin-top: 35px;
   padding: 3rem;
-  flex: 1; }
+  flex: 1;
+  line-height: 32px; }
   main#home {
     overflow: hidden; }
   main .spacer {
     height: 15vh; }
-  main .hero-container {
-    display: flex;
-    height: 75vh; }
-    main .hero-container .hero-title {
-      flex: 2;
-      background-image: url("../img/corey-tran-Bp1Vf2lbHdM-unsplash.jpg");
-      background-repeat: no-repeat;
-      background-size: cover; }
-      main .hero-container .hero-title h1 {
-        top: 15vh; }
-    main .hero-container .hero-text {
-      flex: 1;
-      margin-top: auto;
-      margin: auto 0 10vh 10vh; }
-      main .hero-container .hero-text p {
-        width: 170px;
-        height: 100px; }
-    main .hero-container h1 {
-      position: relative;
-      left: 60vh; }
 
 .background-rectangle {
   position: absolute;

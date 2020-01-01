@@ -1,0 +1,67 @@
+.hero-container {
+  display: flex;
+  height: 75vh;
+
+  .hero-title {
+    flex: 2;
+    background-image: url("../img/corey-tran-Bp1Vf2lbHdM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+      top: 15vh;
+    }
+  }
+
+  .hero-text {
+    flex: 1;
+    margin-top: auto;
+    margin: auto 0 10vh 10vh;
+
+    p {
+      width: 170px;
+      height: 100px;
+    }
+  }
+
+  h1 {
+    position: relative;
+    left: 60vh;
+  }
+}
+
+.description-container {
+  display: flex;
+  margin-bottom: 2rem;
+
+  .description-text {
+    flex: 4;
+  }
+
+  .description-stat {
+    flex: 1;
+    border: 2px solid $primary-color;
+    width: 10px;
+    height: 300px;
+    padding: 35px 35px 200px 35px;
+
+    .number {
+      font-family: $secondary-font-family;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.description-images {
+  display: flex wrap;
+  position: relative;
+  bottom: 175px;
+  margin-bottom: -175px;
+
+  img {
+    margin-right: 1rem;
+    max-width: 230px;
+    max-height: auto;
+  }
+}

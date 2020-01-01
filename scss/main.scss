@@ -2,6 +2,8 @@
 @import "menu";
 @import "mobile";
 
+@import "layout/hero";
+
 * {
   box-sizing: border-box;
 }
@@ -55,44 +57,14 @@ main {
   padding: $global-padding;
   flex: 1;
 
+  line-height: 32px;
+
   &#home {
     overflow: hidden;
   }
 
   .spacer {
     height: 15vh;
-  }
-
-  .hero-container {
-    display: flex;
-    height: 75vh;
-
-    .hero-title {
-      flex: 2;
-      background-image: url("../img/corey-tran-Bp1Vf2lbHdM-unsplash.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-
-      h1 {
-        top: 15vh;
-      }
-    }
-
-    .hero-text {
-      flex: 1;
-      margin-top: auto;
-      margin: auto 0 10vh 10vh;
-
-      p {
-        width: 170px;
-        height: 100px;
-      }
-    }
-
-    h1 {
-      position: relative;
-      left: 60vh;
-    }
   }
 }
 
