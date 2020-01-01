@@ -1,9 +1,11 @@
-.img-brand {
-  z-index: 4;
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  padding-left: $global-padding;
+.menu-branding {
+  .img-brand {
+    z-index: 4;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding-left: $global-padding;
+  }
 }
 
 // Menu button

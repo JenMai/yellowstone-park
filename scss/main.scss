@@ -11,6 +11,9 @@ body {
   color: $primary-color;
   text-decoration: none;
   line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -49,8 +52,31 @@ header {
 
 main {
   padding: $global-padding;
+  flex: 1;
 
   &#home {
     overflow: hidden;
+  }
+}
+
+#main-footer {
+  flex-shrink: 0;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 1rem $global-padding;
+  background: $background-rectangle;
+  overflow: hidden;
+
+  .footer-menu {
+    flex: 3;
+    .nav-item-footer {
+      margin: 2rem;
+      display: inline;
+    }
+  }
+
+  .footer-branding {
+    flex: 1;
   }
 }
