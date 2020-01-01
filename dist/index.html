@@ -68,7 +68,16 @@
       </div>
 
       <div class="spacer"></div>
-      <h2 class="sm-heading">Territory</h2>
+      <div class="section-container">
+        <div class="section-title"><h2 class="sm-heading">Territory</h2></div>
+        <div class="section-description">
+          <p>
+            The park is located in the upper Yellowstone River in three states -
+            Idaho, Wyoming and Montana.
+          </p>
+        </div>
+      </div>
+      <div class="map" id="yellowstone-map"></div>
       <div class="spacer"></div>
       <h2 class="sm-heading">Flora</h2>
       <div class="spacer"></div>
@@ -99,5 +108,10 @@
       </nav>
     </footer>
     <script src="js/main.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=PRIVATE-API-KEY&callback=initMap"
+    ></script>
   </body>
 </html>

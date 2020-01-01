@@ -3,6 +3,7 @@
 @import "mobile";
 
 @import "layout/hero";
+@import "layout/section";
 
 * {
   box-sizing: border-box;
@@ -30,6 +31,7 @@ h3 {
 
   &.sm-heading {
     font-size: 4rem;
+    margin-bottom: 8rem;
   }
 }
 
@@ -64,7 +66,12 @@ main {
   }
 
   .spacer {
-    height: 15vh;
+    height: 22vh;
+  }
+
+  .map {
+    width: 100%;
+    height: 500px;
   }
 }
 

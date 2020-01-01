@@ -1,0 +1,10 @@
+.section-container {
+  display: flex;
+
+  .section-title {
+    width: 45%;
+  }
+  .section-description {
+    max-width: 350px;
+  }
+}
