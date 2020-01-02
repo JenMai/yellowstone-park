@@ -40,3 +40,157 @@
 .section-stats-images {
   display: flex;
 }
+
+// .section-images-grid {
+//   display: grid;
+//   grid-gap: 1rem;
+//   grid-template-columns: 3fr 2fr 1fr;
+//   grid-template-rows: 3fr 1fr;
+//   grid-template-areas:
+//     "img-0 img-0 img-0 img-1 img-1 img-6"
+//     "img-0 img-0 img-0 img-1 img-1 img-7"
+//     "img-0 img-0 img-0 img-2 img-2 img-8"
+//     "img-3 img-4 img-5 img-2 img-2 img-9";
+
+//   img {
+//     max-width: 500px;
+//     height: auto;
+//   }
+// }
+
+// .img-0 {
+//   grid-area: img-0;
+// }
+
+// .img-1 {
+//   grid-area: img-1;
+// }
+
+// .img-2 {
+//   grid-area: img-2;
+// }
+// .img-3 {
+//   grid-area: img-3;
+// }
+// .img-4 {
+//   grid-area: img-4;
+// }
+// .img-5 {
+//   grid-area: img-5;
+// }
+// .img-6 {
+//   grid-area: img-6;
+// }
+// .img-7 {
+//   grid-area: img-7;
+// }
+// .img-8 {
+//   grid-area: img-8;
+// }
+// .img-9 {
+//   grid-area: img-9;
+// }
+
+// .section-images-grid {
+//   display: grid;
+//   grid-template-columns: repeat(6, 1fr);
+//   grid-template-rows: repeat(4, 1fr);
+//   grid-gap: 1rem;
+// }
+
+// .img-0 {
+//   grid-area: 1 / 1 / 4 / 4;
+// }
+// .img-1 {
+//   grid-area: 1 / 4 / 3 / 6;
+// }
+// .img-2 {
+//   grid-area: 3 / 4 / 5 / 6;
+// }
+// .img-3 {
+//   grid-area: 4 / 1 / 5 / 2;
+// }
+// .img-4 {
+//   grid-area: 4 / 2 / 5 / 3;
+// }
+// .img-5 {
+//   grid-area: 4 / 3 / 5 / 4;
+// }
+// .img-6 {
+//   grid-area: 1 / 6 / 2 / 7;
+// }
+// .img-7 {
+//   grid-area: 2 / 6 / 3 / 7;
+// }
+// .img-8 {
+//   grid-area: 3 / 6 / 4 / 7;
+// }
+// .img-9 {
+//   grid-area: 4 / 6 / 5 / 7;
+// }
+
+.section-images-grid {
+  width: 100%;
+  height: 125vh;
+  display: grid;
+  gap: 2.3rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  grid-template-areas:
+    "div1 div1 div1 div2 div2 div7"
+    "div1 div1 div1 div2 div2 div8"
+    "div1 div1 div1 div3 div3 div9"
+    "div4 div5 div6 div3 div3 div10";
+
+  .img1 {
+    background-image: url("../img/fauna/david-tostado-iesQeOFjnnA-unsplash.jpg");
+    @include background-image-properties;
+    grid-area: div1;
+  }
+  .img2 {
+    background-image: url("../img/fauna/yannick-menard-ISs7qT9fEn8-unsplash.jpg");
+    @include background-image-properties;
+    grid-area: div2;
+  }
+  .img3 {
+    background-image: url("../img/fauna/adam-willoughby-knox-_snqARKTgoc-unsplash.jpg");
+    @include background-image-properties;
+    grid-area: div3;
+  }
+  .img4 {
+    background-image: url("../img/fauna/dana-critchlow-OLLcl2tlpf0-unsplash.jpg");
+    @include background-image-properties;
+    grid-area: div4;
+  }
+  .img5 {
+    background-image: url("../img/fauna/vincent-van-zalinge-ujRQ4RJYU28-unsplash.jpg");
+    @include background-image-properties;
+    grid-area: div5;
+  }
+  .img6 {
+    background-image: url("../img/fauna/priscilla-du-preez-6bZQonml5do-unsplash.jpg");
+    @include background-image-properties;
+    grid-area: div6;
+  }
+  .img7 {
+    background-image: url("../img/fauna/david-tostado-o2MrG-rQ-40-unsplash.jpg");
+    @include background-image-properties;
+    grid-area: div7;
+  }
+  .img8 {
+    background-image: url("../img/fauna/zdenek-machacek-lTebCR71_7A-unsplash.jpg");
+    @include background-image-properties;
+    grid-area: div8;
+  }
+  .img9 {
+    background-image: url("../img/fauna/hanna-may-Y9AZOay6fPo-unsplash.jpg");
+    @include background-image-properties;
+    grid-area: div9;
+  }
+  .img10 {
+    background-image: url("../img/fauna/aleesha-wood-Lx7vsvRmWdA-unsplash.jpg");
+    @include background-image-properties;
+    grid-area: div10;
+  }
+}

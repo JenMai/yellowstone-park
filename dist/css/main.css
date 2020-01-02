@@ -123,6 +123,75 @@
 .section-stats-images {
   display: flex; }
 
+.section-images-grid {
+  width: 100%;
+  height: 125vh;
+  display: grid;
+  gap: 2.3rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "div1 div1 div1 div2 div2 div7" "div1 div1 div1 div2 div2 div8" "div1 div1 div1 div3 div3 div9" "div4 div5 div6 div3 div3 div10"; }
+  .section-images-grid .img1 {
+    background-image: url("../img/fauna/david-tostado-iesQeOFjnnA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: div1; }
+  .section-images-grid .img2 {
+    background-image: url("../img/fauna/yannick-menard-ISs7qT9fEn8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: div2; }
+  .section-images-grid .img3 {
+    background-image: url("../img/fauna/adam-willoughby-knox-_snqARKTgoc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: div3; }
+  .section-images-grid .img4 {
+    background-image: url("../img/fauna/dana-critchlow-OLLcl2tlpf0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: div4; }
+  .section-images-grid .img5 {
+    background-image: url("../img/fauna/vincent-van-zalinge-ujRQ4RJYU28-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: div5; }
+  .section-images-grid .img6 {
+    background-image: url("../img/fauna/priscilla-du-preez-6bZQonml5do-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: div6; }
+  .section-images-grid .img7 {
+    background-image: url("../img/fauna/david-tostado-o2MrG-rQ-40-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: div7; }
+  .section-images-grid .img8 {
+    background-image: url("../img/fauna/zdenek-machacek-lTebCR71_7A-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: div8; }
+  .section-images-grid .img9 {
+    background-image: url("../img/fauna/hanna-may-Y9AZOay6fPo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: div9; }
+  .section-images-grid .img10 {
+    background-image: url("../img/fauna/aleesha-wood-Lx7vsvRmWdA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: div10; }
+
 * {
   box-sizing: border-box; }
 
