@@ -5,6 +5,38 @@
     width: 45%;
   }
   .section-description {
-    max-width: 350px;
+    max-width: 400px;
   }
+}
+
+.section-images {
+  display: flex wrap;
+  position: relative;
+
+  img {
+    margin-right: 1rem;
+    max-width: 230px;
+    max-height: auto;
+  }
+}
+
+.stat-container {
+  flex: 1;
+
+  .stat {
+    border: 2px solid $primary-color;
+    width: 260px;
+    height: 300px;
+    padding: 35px 35px 200px 35px;
+  }
+
+  .number {
+    font-family: $secondary-font-family;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+}
+
+.section-stats-images {
+  display: flex;
 }

@@ -37,20 +37,6 @@
   .description-text {
     flex: 4;
   }
-
-  .description-stat {
-    flex: 1;
-    border: 2px solid $primary-color;
-    width: 10px;
-    height: 300px;
-    padding: 35px 35px 200px 35px;
-
-    .number {
-      font-family: $secondary-font-family;
-      font-size: 2rem;
-      margin-bottom: 15px;
-    }
-  }
 }
 
 .description-images {

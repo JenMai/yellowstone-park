@@ -82,16 +82,6 @@
   margin-bottom: 2rem; }
   .description-container .description-text {
     flex: 4; }
-  .description-container .description-stat {
-    flex: 1;
-    border: 2px solid #333;
-    width: 10px;
-    height: 300px;
-    padding: 35px 35px 200px 35px; }
-    .description-container .description-stat .number {
-      font-family: "Roboto Slab", serif;
-      font-size: 2rem;
-      margin-bottom: 15px; }
 
 .description-images {
   display: flex wrap;
@@ -108,7 +98,30 @@
   .section-container .section-title {
     width: 45%; }
   .section-container .section-description {
-    max-width: 350px; }
+    max-width: 400px; }
+
+.section-images {
+  display: flex wrap;
+  position: relative; }
+  .section-images img {
+    margin-right: 1rem;
+    max-width: 230px;
+    max-height: auto; }
+
+.stat-container {
+  flex: 1; }
+  .stat-container .stat {
+    border: 2px solid #333;
+    width: 260px;
+    height: 300px;
+    padding: 35px 35px 200px 35px; }
+  .stat-container .number {
+    font-family: "Roboto Slab", serif;
+    font-size: 2rem;
+    margin-bottom: 15px; }
+
+.section-stats-images {
+  display: flex; }
 
 * {
   box-sizing: border-box; }
