@@ -92,6 +92,7 @@ main {
   padding: 1rem $global-padding;
   background: $background-rectangle;
   overflow: hidden;
+  z-index: -1;
 
   .footer-menu {
     flex: 3;

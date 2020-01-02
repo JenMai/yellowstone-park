@@ -192,6 +192,15 @@
     background-size: cover;
     grid-area: div10; }
 
+.boxes .section-icon-boxes {
+  display: flex;
+  flex: 5;
+  justify-content: space-evenly;
+  text-align: center; }
+
+.boxes .stat {
+  margin-bottom: -75px; }
+
 * {
   box-sizing: border-box; }
 
@@ -260,7 +269,8 @@ main {
   align-items: center;
   padding: 1rem 3rem;
   background: #f2f2f2;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: -1; }
   #main-footer .footer-menu {
     flex: 3; }
     #main-footer .footer-menu .nav-item-footer {
