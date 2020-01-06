@@ -15,6 +15,7 @@ Practicing:
 - Following a UI design mockup
 
 ## TODO
+- [ ] Remake the grids/boxes for better and easier responsiveness
 - [ ] Fix footer menu hyperlinks
 - [ ] Hamburger menu on tablet and lower resolutions only 
 - [ ] Responsive: determine breakdown points
